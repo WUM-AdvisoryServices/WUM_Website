@@ -1,0 +1,8 @@
+{
+  "name": "WUM Advisory Services",
+  "description": "Official institutional website for WUM Advisory Services (SMC-Private) Limited: strategic advisory, leadership development, professional learning, and climate resilience solutions in Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
