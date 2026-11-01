@@ -169,15 +169,15 @@ export const Home: React.FC = () => {
 
             {/* Right Column: Hero Visual Asset with Separate Document Caption at Top */}
             <div className="lg:col-span-5 relative space-y-4">
-              {/* Document Caption at Top (Enhanced Readability on Warm Light Card) */}
+              {/* Document Caption at Top (Border-free) */}
               <div
-                className="bg-gradient-to-br from-[#F4FAF6] via-[#FAFDFB] to-[#FDF8EE] rounded-2xl p-4 sm:p-5 shadow-sm border border-emerald-200/80 space-y-2.5 text-center"
+                className="bg-gradient-to-br from-[#F4FAF6] via-[#FAFDFB] to-[#FDF8EE] rounded-2xl p-4 sm:p-5 shadow-sm space-y-2.5 text-center"
                 dir="rtl"
               >
                 <p className="text-base sm:text-lg font-extrabold text-[#10243A] leading-relaxed">
                   دانائی کے بیج بوتے ہوئے، ایک پائیدار مستقبل کا حصول✨🌱
                 </p>
-                <div className="pt-2 border-t border-emerald-200/70 space-y-1">
+                <div className="pt-1.5 space-y-1">
                   <p className="text-lg sm:text-xl font-bold text-[#A16207] font-serif tracking-wide">
                     إِنَّ اللَّهَ فَالِقُ الْحَبِّ وَالنَّوَىٰ
                   </p>
@@ -187,17 +187,17 @@ export const Home: React.FC = () => {
                 </div>
               </div>
 
-              {/* Complete Image - Fully Retained, Center-Aligned, No Cropping */}
-              <div className="relative rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-white p-2 sm:p-3 flex items-center justify-center">
+              {/* Complete Image - Fully Retained, Center-Aligned, Border-free */}
+              <div className="relative rounded-2xl overflow-hidden shadow-sm bg-white p-2 sm:p-3 flex items-center justify-center">
                 <img
                   src={wumSustainableHero}
                   alt="دانائی کے بیج بوتے ہوئے، ایک پائیدار مستقبل کا حصول - WUM Advisory Services"
-                  className="w-full max-w-[420px] h-auto max-h-[460px] object-contain rounded-xl mx-auto shadow-xs"
+                  className="w-full max-w-[420px] h-auto max-h-[460px] object-contain rounded-xl mx-auto"
                 />
               </div>
 
-              {/* Verified Institutional Credential Bar */}
-              <div className="bg-white rounded-xl p-4 border border-slate-200 shadow-xs flex items-center justify-between gap-4">
+              {/* Verified Institutional Credential Bar - Border-free */}
+              <div className="bg-white rounded-xl p-4 shadow-sm flex items-center justify-between gap-4">
                 <div className="flex items-center gap-3">
                   <img
                     src={wumLogo}
