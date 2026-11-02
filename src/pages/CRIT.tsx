@@ -140,6 +140,8 @@ export const CRIT: React.FC = () => {
               <img
                 src={critSchoolResilienceImg}
                 alt="Architectural photograph of a sustainable climate-resilient school with solar and rainwater harvesting"
+                fetchPriority="high"
+                decoding="async"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700"
               />

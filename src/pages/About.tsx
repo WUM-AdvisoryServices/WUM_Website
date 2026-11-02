@@ -313,6 +313,8 @@ export const About: React.FC = () => {
             <img
               src={wumGeographicSurveyFieldImg}
               alt="Geographic field surveillance and geospatial survey team in Pakistan"
+              loading="lazy"
+              decoding="async"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
             />

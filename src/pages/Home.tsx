@@ -193,6 +193,8 @@ export const Home: React.FC = () => {
                 <img
                   src={wumSustainableHero}
                   alt="دانائی کے بیج بوتے ہوئے، ایک پائیدار مستقبل کا حصول - WUM Advisory Services"
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full max-w-[420px] h-auto max-h-[460px] object-contain rounded-xl mx-auto"
                 />
               </div>
@@ -321,6 +323,8 @@ export const Home: React.FC = () => {
               <img
                 src={critSchoolResilienceImg}
                 alt="Climate Resilient School Infrastructure Toolkit (CRIT) architecture"
+                loading="lazy"
+                decoding="async"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
               />
