@@ -22,6 +22,7 @@ import {
 } from 'lucide-react';
 import wumLogo from '../assets/images/wum_logo.png';
 import wumSustainableHero from '../assets/images/wum_sustainable_future.jpg';
+import critSchoolResilienceImg from '../assets/images/crit_school_resilience_1793517579943.jpg';
 
 const workAreas = [
   {
@@ -318,7 +319,7 @@ export const Home: React.FC = () => {
             {/* Visual on the Left */}
             <div className="lg:col-span-6 relative aspect-16/9 lg:aspect-auto lg:h-full min-h-[340px]">
               <img
-                src="/src/assets/images/crit_school_resilience_1793517579943.jpg"
+                src={critSchoolResilienceImg}
                 alt="Climate Resilient School Infrastructure Toolkit (CRIT) architecture"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

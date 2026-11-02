@@ -1,3 +1,8 @@
+import critSchoolResilienceImg from '../assets/images/crit_school_resilience_1793517579943.jpg';
+import sustainabilityFieldResearchImg from '../assets/images/sustainability_field_research_1793517579246.jpg';
+import capacityBuildingWorkshopImg from '../assets/images/capacity_building_workshop_1793517580194.jpg';
+import wumGeographicSurveyFieldImg from '../assets/images/wum_geographic_survey_field_1793519786263.jpg';
+
 export interface Project {
   id: string;
   title: string;
@@ -26,7 +31,7 @@ export const projectsData: Project[] = [
     geographicFocus: 'Pakistan (Vulnerable Rural & Peri-Urban Districts)',
     status: 'Ongoing',
     featured: true,
-    image: '/src/assets/images/crit_school_resilience_1793517579943.jpg',
+    image: critSchoolResilienceImg,
     overview: 'The Climate-Resilient School Infrastructure Toolkit (CRIT) is an open, community-centered technical framework designed to assess, retrofit, and build climate-resilient schools across Pakistan. With recurring floods, extreme summer heatwaves, and seasonal seismic risks threatening educational continuity, CRIT provides practical guidelines for engineering adaptation, passive thermal cooling, decentralized solar power, rainwater harvesting, and participatory community maintenance.',
     objectives: [
       'Provide open-access technical guidelines for climate-proofing public and community school infrastructure',
@@ -79,7 +84,7 @@ export const projectsData: Project[] = [
     geographicFocus: 'Pakistan (Selected Pilot Districts)',
     status: 'In Formulation',
     featured: false,
-    image: '/src/assets/images/sustainability_field_research_1793517579246.jpg',
+    image: sustainabilityFieldResearchImg,
     overview: 'A proposed holistic initiative combining physical environmental enhancements in school grounds with active outdoor environmental curricula. Targets turning barren school compounds into micro-botanical spaces, organic kitchen gardens, and rainwater demonstration zones where children learn practical ecology.',
     objectives: [
       'Transform degraded school grounds into green, biodiverse outdoor learning environments',
@@ -115,7 +120,7 @@ export const projectsData: Project[] = [
     geographicFocus: 'National (Pakistan)',
     status: 'Ongoing',
     featured: false,
-    image: '/src/assets/images/capacity_building_workshop_1793517580194.jpg',
+    image: capacityBuildingWorkshopImg,
     overview: 'An institutional diagnostic framework developed by WUM Advisory to assist growing non-profit organizations, educational networks, and social development enterprises to rigorously self-evaluate their internal governance, compliance, HR, and project delivery systems.',
     objectives: [
       'Provide an objective, structured benchmarking tool for organizational maturity',
@@ -151,7 +156,7 @@ export const projectsData: Project[] = [
     geographicFocus: 'Punjab & Sindh Semi-Arid Zones',
     status: 'Planned',
     featured: false,
-    image: '/src/assets/images/wum_geographic_survey_field_1793519786263.jpg',
+    image: wumGeographicSurveyFieldImg,
     overview: 'A proposed grassroots engagement model centered on community water security and sanitation education. Engages local youth mobilizers to conduct door-to-door water testing awareness, school hygiene campaigns, and water source protection workshops.',
     objectives: [
       'Increase community awareness of groundwater contamination and safe drinking water practices',

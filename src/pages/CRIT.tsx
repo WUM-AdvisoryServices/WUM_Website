@@ -21,6 +21,7 @@ import {
   FileCode,
   Download
 } from 'lucide-react';
+import critSchoolResilienceImg from '../assets/images/crit_school_resilience_1793517579943.jpg';
 
 const assessmentPillars = [
   {
@@ -137,7 +138,7 @@ export const CRIT: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-white/20 shadow-2xl aspect-4/3 bg-slate-900 group">
               <img
-                src="/src/assets/images/crit_school_resilience_1793517579943.jpg"
+                src={critSchoolResilienceImg}
                 alt="Architectural photograph of a sustainable climate-resilient school with solar and rainwater harvesting"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700"

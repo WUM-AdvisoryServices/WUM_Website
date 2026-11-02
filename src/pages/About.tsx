@@ -18,6 +18,7 @@ import {
   FileCheck2
 } from 'lucide-react';
 import wumLogo from '../assets/images/wum_logo.png';
+import wumGeographicSurveyFieldImg from '../assets/images/wum_geographic_survey_field_1793519786263.jpg';
 
 const seicinValues = [
   {
@@ -310,7 +311,7 @@ export const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 items-center">
           <div className="lg:col-span-6 relative aspect-16/9 lg:aspect-auto lg:h-full min-h-[320px] bg-slate-900">
             <img
-              src="/src/assets/images/wum_geographic_survey_field_1793519786263.jpg"
+              src={wumGeographicSurveyFieldImg}
               alt="Geographic field surveillance and geospatial survey team in Pakistan"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
