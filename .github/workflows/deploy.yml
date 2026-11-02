@@ -26,17 +26,19 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          bun-version: latest
+          node-version: 20
+        cache: 'npm'
 
       - name: Install Dependencies
-        run: bun install
+        run: |
+          npm ci --legacy-peer-deps || npm install --legacy-peer-deps
 
       - name: Build Static Site
         run: |
-          bun run build
+          npm run build
           cp dist/index.html dist/404.html
 
       - name: Setup Pages
