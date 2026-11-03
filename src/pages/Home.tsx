@@ -125,12 +125,14 @@ export const Home: React.FC = () => {
                 <span>WUM Advisory Services (SMC-Private) Limited</span>
               </div>
 
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-heading text-[#10243A] tracking-tight leading-[1.15] text-balance">
-                Empowering People. Strengthening Institutions. Advancing Sustainable Development.
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-heading text-[#10243A] tracking-tight leading-[1.15]">
+                <span className="block">Empowering People</span>
+                <span className="block">Strengthening Institutions</span>
+                <span className="block">Advancing Sustainable Development</span>
               </h1>
 
               <p className="text-base sm:text-lg text-[#64748B] leading-relaxed max-w-2xl">
-                WUM Advisory Services delivers strategic advisory, leadership development, professional learning, and innovative development solutions that strengthen institutions and empower communities across Pakistan.
+                WUM Advisory Services delivers strategic advisory, leadership development, professional learning, and innovative development solutions that strengthen institutions and empower communities.
               </p>
 
               {/* Action Buttons */}
@@ -183,7 +185,7 @@ export const Home: React.FC = () => {
                     إِنَّ اللَّهَ فَالِقُ الْحَبِّ وَالنَّوَىٰ
                   </p>
                   <p className="text-xs sm:text-sm text-slate-700 font-semibold leading-relaxed">
-                    بیشک ! اللہ ہی دانے اور گٹھلیوں کو پھاڑنے والا ہے۔
+                    بیشک ! اللہ ہی دانے اور گٹھلیوں کو پھاڑنے والا ہے
                   </p>
                 </div>
               </div>
