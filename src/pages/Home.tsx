@@ -174,20 +174,15 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-5 relative space-y-4">
               {/* Document Caption at Top (Border-free) */}
               <div
-                className="bg-gradient-to-br from-[#F4FAF6] via-[#FAFDFB] to-[#FDF8EE] rounded-2xl p-4 sm:p-5 shadow-sm space-y-2.5 text-center"
+                className="bg-gradient-to-br from-[#F4FAF6] via-[#FAFDFB] to-[#FDF8EE] rounded-2xl p-5 sm:p-6 shadow-sm space-y-3 text-center font-nastaleeq"
                 dir="rtl"
               >
-                <p className="text-base sm:text-lg font-extrabold text-[#10243A] leading-relaxed">
-                  دانائی کے بیج بوتے ہوئے، ایک پائیدار مستقبل کا حصول✨🌱
+                <p className="text-2xl sm:text-3xl lg:text-[32px] font-bold text-[#A16207] tracking-wide leading-relaxed">
+                  إِنَّ اللَّهَ فَالِقُ الْحَبِّ وَالنَّوَىٰ
                 </p>
-                <div className="pt-1.5 space-y-1">
-                  <p className="text-lg sm:text-xl font-bold text-[#A16207] font-serif tracking-wide">
-                    إِنَّ اللَّهَ فَالِقُ الْحَبِّ وَالنَّوَىٰ
-                  </p>
-                  <p className="text-xs sm:text-sm text-slate-700 font-semibold leading-relaxed">
-                    بیشک ! اللہ ہی دانے اور گٹھلیوں کو پھاڑنے والا ہے
-                  </p>
-                </div>
+                <p className="text-lg sm:text-xl lg:text-2xl text-slate-700 font-medium leading-loose">
+                  بیشک ! اللہ ہی دانے اور گٹھلی کو پھاڑنے والا ہے
+                </p>
               </div>
 
               {/* Complete Image - Fully Retained, Center-Aligned, Border-free */}

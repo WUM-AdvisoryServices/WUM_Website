@@ -23,6 +23,20 @@ h1, h2, h3, h4, .font-heading {
   letter-spacing: -0.02em;
 }
 
+@font-face {
+  font-family: 'Jameel Noori Nastaleeq';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Jameel Noori Nastaleeq'),
+       local('JameelNooriNastaleeq'),
+       url('https://fonts.cdnfonts.com/s/149204/JameelNooriNastaleeqRegular.woff') format('woff');
+}
+
+.font-nastaleeq {
+  font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', 'Urdu Typesetting', 'Alvi Nastaleeq', serif;
+}
+
 /* Reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   * {
